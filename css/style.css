@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Lato";
+	color: #424551;
+}
+
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.main {
+}
+
+.main__title {
+	margin-bottom: 26px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+}
+
+.main__container {
+}
+.main__image {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.main__image img {
+	max-width: 100%;
+}
+
+.main-title__text {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;;
+}
+.main__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.main__text p {
+	margin-bottom: 22px;
+}
+
+.main__quote {
+	margin-bottom: 48px;
+	padding-left: 58px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	background: url(../img/icons/braces.svg) 0 0 no-repeat;
+}
+
+.main__text ul {
+	margin-top: 24px;
+}
+
+.main__text li {
+	margin-bottom: 4px;
+	padding-left: 32px;
+	min-height: 36px;
+	background: url(../img/icons/Vector.jpg) 0 6px no-repeat;
+}
+
+.color {
+	padding-top: 200px;
+	background-color: #18b5a4;
+}
+
+.bg-img {
+	padding-top: 400px;
+	background: url(../img/avatar-images.jpg) 100px 100px;
+}
+
+.bg-img-no-r {
+	padding-top: 400px;
+	background: url(../img/avatar-images.jpg) 0 0/auto 100%  no-repeat;
+}
+
+.bg-100 {
+	padding-top: 400px;
+	background: url(../img/avatar-images.jpg) 0 0/100% 100% no-repeat;
+}
+
+.bg-center {
+	padding-top: 400px;
+	background: url(../img/avatar-images.jpg) 50% no-repeat;
+}
+
+.gradient {
+	padding-top: 400px;
+	background: linear-gradient(135deg, #6ded99 5%,#d3ef56 23%,#4034e5 46%,#7c1163 75%);
+}
